@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LPrincess\'s blogLimengjueROE21005</string>
+    <string name="guitar_text">
+        "                 Guitar~\nMy first hobby is the guitar. On my junior high school birthday, my mother gave me a natural wood-colored guitar. Whether I'm in a good mood or feeling down, I would pick it up and play, which makes me feel relaxed."
+    </string>
+    <string name="piano_text">
+        "                 Piano~\nI started learning piano at the age of 5 and have obtained a certificate of level ten. Learning piano is an interesting and challenging process interlaced with both joy and hardship. There are rapid progress periods when joy outweighs hardship, filled with fun and a sense of achievement. "
+    </string>
+    <string name="dance_text">
+        "                 DANCE~\nI love dancing and really enjoy the feeling of twirling on stage; it makes me feel very cool!\nWhen I was 7 years old, I first participated in a children's Spring Festival Gala performance, and I fell in love with that feeling."
+    </string>
+    <string name="like_emoji">❤</string>
+    <string name="like_num">0</string>
+    <string name="comment_hint">Write your comments~</string>
+    <string name="comment_emoji">💬</string>
+    <string name="web_hint">blog.lprincess.top</string>
+    <string name="btn_make_sure">Jump</string>
+</resources>

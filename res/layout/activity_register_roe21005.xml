@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/imagebg"
+    tools:context=".RegisterROE21005">
+
+    <!-- User -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User: "
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="400dp"
+        android:layout_height="48dp"
+        android:text=""
+        tools:ignore="LabelFor,TextFields，SpeakableTextPresentCheck"
+        android:inputType="text"
+        android:autofillHints="your name" />
+
+    <!-- Password -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/userpwd"
+        android:layout_width="400dp"
+        android:layout_height="48dp"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor,TextFields，SpeakableTextPresentCheck"
+        android:autofillHints="your password" />
+
+    <!-- Verify -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify Your Password: "
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/userpwd2"
+        android:layout_width="400dp"
+        android:layout_height="48dp"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor,TextFields，SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>

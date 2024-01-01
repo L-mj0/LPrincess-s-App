@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/imagebg3"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/index"
+            android:layout_width="wrap_content"
+            android:layout_height="252dp"
+            android:src="@drawable/imgin1" />
+
+        <ImageView
+            android:id="@+id/music_title"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/music" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/guitar"
+                android:layout_width="162dp"
+                android:layout_height="140dp"
+                android:src="@drawable/guitar"
+                android:layout_marginRight="15dp" />
+
+            <TextView
+                android:id="@+id/guitar_text"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/guitar_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+
+            <Button
+                android:id="@+id/btn_like1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/like_emoji" />
+
+            <TextView
+                android:id="@+id/tv_likes1"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp"
+                android:text="@string/like_num"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_comment1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/comment_emoji" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed_comment1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:autofillHints=""
+                android:hint="@string/comment_hint"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ViewComments1"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/piano"
+                android:layout_width="162dp"
+                android:layout_height="140dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/piano" />
+
+            <TextView
+                android:id="@+id/piano_text"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/piano_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+
+            <Button
+                android:id="@+id/btn_like2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/like_emoji" />
+
+            <TextView
+                android:id="@+id/tv_likes2"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:text="@string/like_num"
+                android:layout_marginRight="140dp"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_comment2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/comment_emoji" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed_comment2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:autofillHints=""
+                android:hint="@string/comment_hint"
+                android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ViewComments2"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/dance"
+                android:layout_width="162dp"
+                android:layout_height="140dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/dancing" />
+
+            <TextView
+                android:id="@+id/dance_text"
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/dance_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+
+            <Button
+                android:id="@+id/btn_like3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/like_emoji" />
+
+            <TextView
+                android:id="@+id/tv_likes3"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:text="@string/like_num"
+                android:layout_marginRight="140dp"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_comment3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/comment_emoji" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed_comment3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:autofillHints=""
+                android:hint="@string/comment_hint"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ViewComments3"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

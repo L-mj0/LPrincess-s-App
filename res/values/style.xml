@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 设置 windowActionBar 为 false，因为我们将使用 Toolbar -->
+        <item name="windowActionBar">false</item>
+        <!-- 如果你有这个项目，也设置 windowNoTitle 为 true -->
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

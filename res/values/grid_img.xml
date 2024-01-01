@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="grid_img1" type="id"></item>
+    <item name="grid_img2" type="id"></item>
+    <item name="grid_img3" type="id"></item>
+    <item name="grid_img4" type="id"></item>
+    <item name="grid_img5" type="id"></item>
+    <item name="grid_img6" type="id"></item>
+    <item name="grid_img7" type="id"></item>
+    <item name="grid_img8" type="id"></item>
+    <item name="grid_img9" type="id"></item>
+</resources>
